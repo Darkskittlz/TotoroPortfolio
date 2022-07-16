@@ -6,7 +6,7 @@
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "prettier": "prettier -write .",
-    "lint": "next lint"
+    "lint": "eslint --max-warnings=0 ..."
   },
   "keywords": [],
   "author": "Jeremy Neal <Darkskiiittles@gmail.com>",
@@ -29,6 +29,7 @@
   "devDependencies": {
     "eslint": "^8.19.0",
     "eslint-config-next": "^12.2.2",
+    "eslint-plugin-only-warn": "^1.0.3",
     "prettier": "^2.7.1"
   }
 }
