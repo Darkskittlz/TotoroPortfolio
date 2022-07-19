@@ -12,3 +12,5 @@ export const reactSkill = [
       id: 0,
     }
   ]
+
+  export default {threeSkill, reactSkill}

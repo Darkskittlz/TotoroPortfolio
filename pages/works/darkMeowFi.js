@@ -2,10 +2,9 @@ import { Heading, Box, Image, Container, Badge, Link, Title, List, ListItem } fr
 import { ExternalLinkIcon, MoonIcon } from '@chakra-ui/icons'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
-import { ChevronRightIcon } from '@chakra-ui/icons'
 import { Meta } from '../../components/work'
 import styled from 'styled-components'
-import { CardContainer, SkillBadge, SkillBadgeContainer, Grid2Container, SkillText } from './styles/backgroundStyles';
+
 
 const TitleContainer = styled.div`
     display: flex;
