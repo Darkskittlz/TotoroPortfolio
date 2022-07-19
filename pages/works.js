@@ -3,6 +3,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 import styled from 'styled-components'
+import Footer from '../components/footer'
 
 
 import thumbProject from '../public/images/works/bg (1).png'
@@ -14,7 +15,6 @@ import thumbDarkMeowShop from '../public/images/works/darkMeowShop.png'
 import thumbEcommerce from '../public/images/works/tanjiroScreenshot.png'
 import thumbThreeJS from '../public/images/works/ThreeJSPortfolio.png'
 import thumbMatiasSanes from '../public/images/works/4.png'
-import Footer from '../components/footer'
 
 export const FooterContainer = styled.div`
     display: flex;
