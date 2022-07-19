@@ -105,9 +105,10 @@ const Donut = () => {
                 renderer.render(scene, camera)
             }
             return () => {
-                console.log('unmount')
-                cancelAnimationFrame(req)
-                renderer.dispose()
+                renderer.dispose();
+                renderer.current = null;
+          
+
             }
         }
     }, [])

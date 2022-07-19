@@ -12,21 +12,19 @@
   "author": "Jeremy Neal <Darkskiiittles@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@chakra-ui/icons": "^2.0.4",
-    "@chakra-ui/layout": "^2.1.1",
-    "@chakra-ui/react": "^2.2.4",
-    "@emotion/react": "^11.9.3",
-    "@emotion/styled": "^11.9.3",
-    "framer-motion": "^6.5.1",
-    "next": "^12.2.2",
-    "react": "18.0.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.4.0",
-    "styled-components": "^5.3.5",
-    "three": "^0.142.0"
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "framer-motion": "^6.3.0",
+    "next": "^12.1.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "three": "^0.139.2"
   },
   "devDependencies": {
-    "eslint": "^8.19.0",
+    "eslint": "^8.20.0",
     "eslint-config-next": "^12.2.2",
     "eslint-plugin-only-warn": "^1.0.3",
     "prettier": "^2.7.1"
