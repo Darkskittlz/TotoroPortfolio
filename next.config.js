@@ -4,7 +4,7 @@ module.exports = {
 		useSuspense: false,
 		wait: true
 	},
-	future { 
+	future: { 
 		webpack5: true
 	}
 }
