@@ -43,7 +43,7 @@ const LinkItem = ({ href, path, children, ...props }) => {
 const Navbar = props => {
     const { path } = props
     return (
-        <Container maxW='3xl'>
+        <Container maxW="2xl">
             <Box
                 position="fixed"
                 as="nav"

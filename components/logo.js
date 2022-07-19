@@ -35,9 +35,9 @@ const Logo = () => {
                         color={useColorModeValue('gray.800', 'whiteAlpha.900')}
                         fontFamily="M PLUS Rounded 1c"
                         fontWeight="bold"
-                        fontSize="15px"
+                        fontSize="22px"
                         ml={0}
-                        width="200px"
+                        width="270px"
                     >
                         DarkMeow Productions
                     </Text>

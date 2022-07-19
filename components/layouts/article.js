@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion'
 import Head from 'next/head'
+import ParticleComponent from '../../pages/ParticleBackground'
 import { GridItemStyle } from '../grid-item'
+
+
 
 const variants = {
     hidden: { opacity: 0, x: 0, y: 20 },
@@ -9,17 +12,18 @@ const variants = {
 }
 
 const Layout = ({ children, title }) => (
-    <motion.article
-      initial="hidden"
-      animate="enter"
-      exit="exit"
-      variants={variants}
-      transition={{duration: 0.4, type: 'easInOut'}}
-      style={{position: 'relative'}}
-    >
+  <motion.article
+  initial="hidden"
+  animate="enter"
+  exit="exit"
+  variants={variants}
+  transition={{duration: 0.4, type: 'easInOut'}}
+  style={{position: 'relative', height: "100%", marginBottom: "40px"}}
+  >
+  
       <>
         {title && (
-            <Head>
+          <Head>
                 <title>{title} - Darkskittlz </title>
             </Head>
         )}

@@ -3,27 +3,30 @@ import Image from 'next/image'
 import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
 import { Global } from "@emotion/react"
 
-export const GridItem = ({ children, href, title, thumbnail }) => (
+export const GridItem = ({ children, id, href, title, thumbnail }) => (
     <Box w="100%" align="center">
-        <LinkBox cursor='pointer'>
-            <Image 
-              src={thumbnail}
-              alt={title}
-              className="grid-item-thumbnail"
-              placeholder="blur"
-              loading="lazy"
-            />
-            <LinkOverlay href={href} target="_blank">
-                <Text mt={3}>{title}</Text>
-            </LinkOverlay>
-            <Text fontSize={24}>{children}</Text>
-        </LinkBox>
+        <NextLink href={`/posts/${id}`} passHref scroll={false}>
+            <LinkBox cursor='pointer'>
+                <Image 
+                src={thumbnail}
+                alt={title}
+                className="grid-item-thumbnail"
+                placeholder="blur"
+                loading="lazy"
+                />
+                <LinkOverlay href={`posts/${id}`} target="_blank">
+                    <Text mt={3}>{title}</Text>
+                </LinkOverlay>
+                <Text fontSize={24}>{children}</Text>
+            </LinkBox>
+        </NextLink>
+
     </Box>
 )
 
 export const WorkGridItem = ({ children, id, title, thumbnail }) => (
     <Box w="100%" align="center">
-        <NextLink href={`/works/${id} passHref scroll={false}`}>
+    <NextLink href={`/works/${id}`} passHref scroll={false}>
             <LinkBox cursor="pointer">
                 <Image 
                     src={thumbnail} 
