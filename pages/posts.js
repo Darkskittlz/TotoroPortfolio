@@ -5,11 +5,12 @@ import { GridItem } from '../components/grid-item'
 
 import postIMG from "../public/images/postThumb.jpg"
 import Footer from '../components/footer'
+import ParticleComponent from './ParticleBackground'
 
 const Posts = () => {
     return (
         <Layout title="Posts">
-            <Container>
+            <Container style={{marginBottom: "100px"}}>
                 <Heading as="h4" fontSize={20} mb={4}>
                     Popular Posts 
                 </Heading>

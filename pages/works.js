@@ -10,8 +10,8 @@ import thumbProject from '../public/images/works/bg (1).png'
 import thumbBandingo from '../public/images/works/bandingo.png'
 import thumbAidanPaul from '../public/images/works/apmusic.png'
 import thumbCollab from '../public/images/works/devShop.png'
-// import thumbDarkMeowFi from '../public/images/works/darkMeowFi.png'
-// import thumbDarkMeowShop from '../public/images/works/darkMeowShop.png'
+import thumbDarkMeowFi from '../public/images/works/darkMeowFi.png'
+import thumbDarkMeowShop from '../public/images/works/darkMeowShop.png'
 import thumbEcommerce from '../public/images/works/tanjiroScreenshot.png'
 import thumbThreeJS from '../public/images/works/ThreeJSPortfolio.png'
 import thumbMatiasSanes from '../public/images/works/4.png'
@@ -42,7 +42,7 @@ const Works = () => {
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.4}>
-                        <WorkGridItem id="collab" title="Collaboration" thumbnail={thumbCollab}>
+                        <WorkGridItem id="devShop" title="Collaboration" thumbnail={thumbCollab}>
 
                         </WorkGridItem>
                     </Section>
@@ -51,11 +51,11 @@ const Works = () => {
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.6}>
-                        <WorkGridItem id="darkMeowFi" title="DarkMeow Fi" thumbnail="">
+                        <WorkGridItem id="darkMeowFi" title="DarkMeow Fi" thumbnail={thumbDarkMeowFi}>
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.7}>
-                        <WorkGridItem id="darkMeowShop" title="DarkMeow Shop" thumbnail="">
+                        <WorkGridItem id="darkMeowShop" title="DarkMeow Shop" thumbnail={thumbDarkMeowShop}>
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.8}>
@@ -71,10 +71,8 @@ const Works = () => {
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
+              <Footer />
             </Container>
-            <FooterContainer>
-                <Footer />
-            </FooterContainer>
         </Layout>
     )
 }

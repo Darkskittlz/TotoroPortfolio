@@ -136,27 +136,6 @@ const Card = styled.div`
         }
     `
 
-const HomepageGrid = () => {
-    return (
-        <>
-            <Body>
-                <Card>
-                    <h1>Bio</h1>
-                    <br />
-                    <h1>Anastasia</h1>
-                    <br />
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit sint minima atque quo illo eius! Aliquam vero dolores impedit possimus doloribus non fugit, doloremque recusandae alias, natus enim at cumque!</h2>
-                    <br />
-                    <h1>Collin</h1>
-                    <br />
-                    <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero est, pariatur, laboriosam mollitia rerum eaque, vitae corrupti accusamus tempore magnam quia placeat alias. Nulla similique vitae dolor cum! Sed, neque!</h2>
-                </Card>
-            </Body>
-        </>
-    )
-}
-
-
 const Page = () => {
 	return (
 		<>
@@ -167,7 +146,7 @@ const Page = () => {
 						bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} 
 						css={{ backdropFilter: 'blur(10px)' }}
 						align="center" 
-						h={59} 
+						h={12} 
 						ml={50} 
 						mr={50} 
 						mb={10}
@@ -205,10 +184,10 @@ const Page = () => {
 						>
 							<Image 
 							display="inline-block"
-							width="200px"
+							width="195px"
 							height="240px"
 							fit="cover"
-							src="/images/darkProfile (2).jpg"
+							src="/images/profilePIC.jpg"
 							alt="Profile IMG"							   
 							/>
 						</Box>
@@ -267,8 +246,8 @@ const Page = () => {
 							<Link href="https://www.craftz.dog/">Takuyama Matsuyama </Link>
 						</Paragraph>
 					</Section>
+			  	  <Footer />
 				</Container>
-			  <Footer />
 			</Layout>
 		</>
 	)
