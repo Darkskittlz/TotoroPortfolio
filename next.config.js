@@ -3,5 +3,8 @@ module.exports = {
 	react: {
 		useSuspense: false,
 		wait: true
+	},
+	future { 
+		webpack5: true
 	}
 }
