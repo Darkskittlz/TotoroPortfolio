@@ -6,6 +6,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import { Meta } from '../../components/work'
 import styled from 'styled-components'
 import { CardContainer, SkillBadge, SkillBadgeContainer, Grid2Container, SkillText } from './styles/backgroundStyles';
+import Footer from '../../components/footer'
 
 const TitleContainer = styled.div`
     display: flex;
@@ -27,6 +28,10 @@ const BodyContainer = styled.div`
     h1 {
         font-size: 10px;
     }
+`
+
+const Spacer = styled.div`
+    height: 50px;
 `
 
 const AidanPaul = (props) => {
@@ -60,6 +65,8 @@ const AidanPaul = (props) => {
                     </List>
                 </BodyContainer>
             </Container>
+          <Footer />
+         <Spacer />
         </Layout>
     )
 }

@@ -20,7 +20,7 @@ export const FooterWrapper = styled.section`
   padding: 2rem 48px 40px;
   margin: 1rem auto;
   box-sizing: content-box;
-  margin-top: 50px;
+  margin-top: 250px;
   z-index: 1;
   width: 100%;
   justify-items: center;

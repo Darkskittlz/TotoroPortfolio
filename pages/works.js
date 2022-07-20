@@ -71,8 +71,8 @@ const Works = () => {
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
-              <Footer />
             </Container>
+          <Footer />
         </Layout>
     )
 }

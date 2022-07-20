@@ -31,6 +31,10 @@ h1 {
 }
 `
 
+const Spacer = styled.div`
+    height: 50px;
+`
+
 const Backgrounds = (props) => {
 
     return (
@@ -68,6 +72,7 @@ const Backgrounds = (props) => {
                 </BodyContainer>
             </Container>
           <Footer />
+         <Spacer />
         </Layout>
     )
 }

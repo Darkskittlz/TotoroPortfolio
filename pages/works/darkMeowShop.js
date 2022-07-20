@@ -4,6 +4,7 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 import { Meta } from '../../components/work'
 import styled from 'styled-components'
+import Footer from '../../components/footer'
 
 
 const TitleContainer = styled.div`
@@ -26,6 +27,10 @@ const BodyContainer = styled.div`
     h1 {
         font-size: 10px;
     }
+`
+
+const Spacer = styled.div`
+    height: 200px;
 `
 
 const DarkMeowShop = (props) => {
@@ -59,6 +64,7 @@ const DarkMeowShop = (props) => {
                     </List>
                 </BodyContainer>
             </Container>
+          <Spacer />
         </Layout>
     )
 }

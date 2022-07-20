@@ -17,7 +17,7 @@ const Website = ({ Component, pageProps, router }) => {
                         />
                     <Component {...pageProps} key={router.route} />
             </Layout>
-            {/* <ParticleComponent /> */}
+            <ParticleComponent />
         </ChakraProvider>
     )
 }
