@@ -1,0 +1,7 @@
+[build]
+    command = 'CI = next build'
+     functions = 'netlify/functions'
+     publish = ".next"
+
+#  [functions]
+#      directory = "/netlify/functions/"
