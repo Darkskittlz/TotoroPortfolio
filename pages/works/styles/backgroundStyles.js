@@ -84,4 +84,4 @@ export const CardContainer = styled.div`
   justify-content: center;
 `
 
-export default {CardContainer, SkillText, Grid2Container, ImageContainer, SkillBadge, SkillBadgeAnimation, SkillBadgeContainer }
+export default CardContainer;

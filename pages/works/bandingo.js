@@ -5,7 +5,7 @@ import Layout from '../../components/layouts/article'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { Meta } from '../../components/work'
 import styled from 'styled-components'
-import { reactSkill } from '../constants/constants'
+import { reactSkill } from '../../components/constants/constants'
 import { CardContainer, SkillBadge, SkillBadgeContainer, Grid2Container, SkillText } from './styles/backgroundStyles';
 import Footer from '../../components/footer'
 

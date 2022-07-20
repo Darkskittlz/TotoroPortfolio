@@ -2,5 +2,20 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/": "pages/index.html",
+  "/posts/blog1": "pages/posts/blog1.html",
+  "/works": "pages/works.html",
+  "/works/apMusic": "pages/works/apMusic.html",
+  "/works/backgrounds": "pages/works/backgrounds.html",
+  "/works/bandingo": "pages/works/bandingo.html",
+  "/works/collab": "pages/works/collab.html",
+  "/works/darkMeowFi": "pages/works/darkMeowFi.html",
+  "/works/darkMeowShop": "pages/works/darkMeowShop.html",
+  "/works/eCommerce": "pages/works/eCommerce.html",
+  "/works/matiasSanes": "pages/works/matiasSanes.html",
+  "/works/styles/backgroundStyles": "pages/works/styles/backgroundStyles.html",
+  "/works/threejsPortfolio": "pages/works/threejsPortfolio.html",
+  "/posts": "pages/posts.html",
+  "/ParticleBackground": "pages/ParticleBackground.html",
+  "/404": "pages/404.html"
 }
