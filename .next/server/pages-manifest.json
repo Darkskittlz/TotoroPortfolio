@@ -8,6 +8,7 @@
   "/posts": "pages/posts.html",
   "/posts/blog1": "pages/posts/blog1.html",
   "/works": "pages/works.html",
+  "/works/apMusic": "pages/works/apMusic.html",
   "/works/backgrounds": "pages/works/backgrounds.html",
   "/works/bandingo": "pages/works/bandingo.html",
   "/works/collab": "pages/works/collab.html",
@@ -16,6 +17,5 @@
   "/works/eCommerce": "pages/works/eCommerce.html",
   "/works/matiasSanes": "pages/works/matiasSanes.html",
   "/works/styles/backgroundStyles": "pages/works/styles/backgroundStyles.html",
-  "/works/threejsPortfolio": "pages/works/threejsPortfolio.html",
-  "/works/apMusic": "pages/works/apMusic.html"
+  "/works/threejsPortfolio": "pages/works/threejsPortfolio.html"
 }
