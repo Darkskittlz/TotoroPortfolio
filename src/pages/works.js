@@ -22,7 +22,6 @@ export const FooterContainer = styled.div`
 
 `
 
-
 const Works = () => {
     return (
         <Layout>
