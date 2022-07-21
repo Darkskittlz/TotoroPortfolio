@@ -5,7 +5,6 @@ import Layout from '../components/layouts/article'
 import styled from 'styled-components'
 import Footer from '../components/footer'
 
-
 import thumbProject from '../assets/images/works/bg (1).png'
 import thumbBandingo from '../assets/images/works/bandingo.png'
 import thumbAidanPaul from '../assets/images/works/apmusic.png'
@@ -19,8 +18,8 @@ import thumbMatiasSanes from '../assets/images/works/4.png'
 export const FooterContainer = styled.div`
     display: flex;
     align-items: flex-end;
-
 `
+
 
 const Works = () => {
     return (
