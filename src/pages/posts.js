@@ -3,8 +3,9 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-// import postIMG from "../assets/images/postThumb.jpg"
+import postIMG from "../../public/images/postThumb.jpg"
 import Footer from '../components/footer'
+
 
 const Posts = () => {
     return (
@@ -17,13 +18,13 @@ const Posts = () => {
                     <SimpleGrid columns={[1, 2, 2]} gap={6}>
                         <GridItem 
                             title="From E-Boy to Engineer"
-                            // thumbnail={postIMG}
+                            thumbnail={postIMG}
                             id="blog1"
                         />
                     </SimpleGrid>
                 </Section>
             </Container>
-          <Footer />
+          {/* <Footer /> */}
         </Layout>
     )
 }

@@ -6,15 +6,15 @@ import styled from 'styled-components'
 import Footer from '../components/footer'
 
 
-// import thumbProject from '../assets/images/works/bg (1).png'
-// import thumbBandingo from '../assets/images/works/bandingo.png'
-// import thumbAidanPaul from '../assets/images/works/apmusic.png'
-// import thumbCollab from '../assets/images/works/devShop.png'
-// import thumbDarkMeowFi from '../assets/images/works/darkMeowFi.png'
-// import thumbDarkMeowShop from '../assets/images/works/darkMeowShop.png'
-// import thumbEcommerce from '../assets/images/works/tanjiroScreenshot.png'
-// import thumbThreeJS from '../assets/images/works/ThreeJSPortfolio.png'
-// import thumbMatiasSanes from '../assets/images/works/4.png'
+import thumbProject from '../assets/images/works/bg (1).png'
+import thumbBandingo from '../assets/images/works/bandingo.png'
+import thumbAidanPaul from '../assets/images/works/apmusic.png'
+import thumbCollab from '../assets/images/works/devShop.png'
+import thumbDarkMeowFi from '../assets/images/works/darkMeowFi.png'
+import thumbDarkMeowShop from '../assets/images/works/darkMeowShop.png'
+import thumbEcommerce from '../assets/images/works/tanjiroScreenshot.png'
+import thumbThreeJS from '../assets/images/works/ThreeJSPortfolio.png'
+import thumbMatiasSanes from '../assets/images/works/4.png'
 
 export const FooterContainer = styled.div`
     display: flex;
@@ -32,46 +32,46 @@ const Works = () => {
 
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
                     <Section delay={0.2}>
-                        <WorkGridItem id="bandingo" title="Bandingo PWA" >
+                        <WorkGridItem id="bandingo" title="Bandingo PWA" thumbnail={thumbBandingo}>
                             {/* PWA That consumes several APIs to deliver transactional email to each user. */}
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.3}>
-                        <WorkGridItem id="apMusic" title="Aidan Paul" >
+                        <WorkGridItem id="apMusic" title="Aidan Paul" thumbnail={thumbAidanPaul}>
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.4}>
-                        <WorkGridItem id="devShop" title="Collaboration" >
+                        <WorkGridItem id="devShop" title="Collaboration" thumbnail={thumbCollab}>
 
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.5}>
-                        <WorkGridItem id="backgrounds" title="React-Backgrounds" >
+                        <WorkGridItem id="backgrounds" title="React-Backgrounds" thumbnail={thumbProject}>
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.6}>
-                        <WorkGridItem id="darkMeowFi" title="DarkMeow Fi" >
+                        <WorkGridItem id="darkMeowFi" title="DarkMeow Fi" thumbnail={thumbDarkMeowFi}>
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.7}>
-                        <WorkGridItem id="darkMeowShop" title="DarkMeow Shop" >
+                        <WorkGridItem id="darkMeowShop" title="DarkMeow Shop" thumbnail={thumbDarkMeowShop}>
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.8}>
-                        <WorkGridItem id="eCommerce" title="E-Commerce" >
+                        <WorkGridItem id="eCommerce" title="E-Commerce" thumbnail={thumbEcommerce}>
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.9}>
-                        <WorkGridItem id="threejsPortfolio" title="ThreeJS Portfolio" >
+                        <WorkGridItem id="threejsPortfolio" title="ThreeJS Portfolio" thumbnail={thumbThreeJS}>
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.10}>
-                        <WorkGridItem id="matiasSanes" title="Matias Sanes Hub" >
+                        <WorkGridItem id="matiasSanes" title="Matias Sanes Hub" thumbnail={thumbMatiasSanes}>
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
             </Container>
-          <Footer />
+          {/* <Footer /> */}
         </Layout>
     )
 }

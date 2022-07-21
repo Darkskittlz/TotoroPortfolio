@@ -246,7 +246,7 @@ const Page = () => {
 							<Link href="https://www.craftz.dog/">Takuyama Matsuyama </Link>
 						</Paragraph>
 					</Section>
-			  	  <Footer />
+			  	  {/* <Footer /> */}
 				</Container>
 			</Layout>
 		</>
