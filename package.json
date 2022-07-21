@@ -30,6 +30,8 @@
     "eslint": "^8.20.0",
     "eslint-config-next": "^12.2.2",
     "eslint-plugin-only-warn": "^1.0.3",
+    "file-loader": "^1.1.6",
+    "html-loader": "^0.5.5",
     "prettier": "^2.7.1"
   }
 }
