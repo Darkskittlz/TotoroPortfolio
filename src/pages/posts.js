@@ -2,6 +2,7 @@ import { Container, Grid, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
+import Image from 'next/image'
 
 import postIMG from "../../public/images/postThumb.jpg"
 import Footer from '../components/footer'
@@ -16,11 +17,7 @@ const Posts = () => {
                 </Heading>
                 <Section delay={0.1}>
                     <SimpleGrid columns={[1, 2, 2]} gap={6}>
-                        <GridItem 
-                            title="From E-Boy to Engineer"
-                            thumbnail={postIMG}
-                            id="blog1"
-                        />
+                        <Image src={postIMG} alt="E-Boy" style={{borderRadius: "10px"}}/>
                     </SimpleGrid>
                 </Section>
             </Container>
