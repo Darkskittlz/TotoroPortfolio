@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import postIMG from "/images/postThumb.jpg"
+import postIMG from "../../public/images/postThumb.jpg"
 import Footer from '../components/footer'
 
 

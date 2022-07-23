@@ -5,15 +5,15 @@ import Layout from '../components/layouts/article'
 import styled from 'styled-components'
 import Footer from '../components/footer'
 
-import thumbProject from '/images/works/bg (1).png'
-import thumbBandingo from '/images/works/bandingo.png'
-import thumbAidanPaul from '/images/works/apmusic.png'
-import thumbCollab from '/images/works/devShop.png'
-import thumbDarkMeowFi from '/images/works/darkMeowFi.png'
-import thumbDarkMeowShop from '/images/works/darkMeowShop.png'
-import thumbEcommerce from '/images/works/tanjiroScreenshot.png'
-import thumbThreeJS from '/images/works/ThreeJSPortfolio.png'
-import thumbMatiasSanes from '/images/works/4.png'
+import thumbProject from '../../public/images/works/bg (1).png'
+import thumbBandingo from '../../public/images/works/bandingo.png'
+import thumbAidanPaul from '../../public/images/works/apmusic.png'
+import thumbCollab from '../../public/images/works/devShop.png'
+import thumbDarkMeowFi from '../../public/images/works/darkMeowFi.png'
+import thumbDarkMeowShop from '../../public/images/works/darkMeowShop.png'
+import thumbEcommerce from '../../public/images/works/tanjiroScreenshot.png'
+import thumbThreeJS from '../../public/images/works/ThreeJSPortfolio.png'
+import thumbMatiasSanes from '../../public/images/works/4.png'
 
 export const FooterContainer = styled.div`
     display: flex;
@@ -40,7 +40,7 @@ const Works = () => {
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.4}>
-                        <WorkGridItem id="devShop" title="Collaboration" thumbnail={thumbCollab}>
+                        <WorkGridItem id="collab" title="Collaboration" thumbnail={thumbCollab}>
 
                         </WorkGridItem>
                     </Section>
