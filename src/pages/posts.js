@@ -1,8 +1,10 @@
 import { Container, Grid, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
+import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
 import Image from 'next/image'
+import NextLink from 'next/link'
+
 
 import postIMG from "../../public/images/postThumb.jpg"
 import Footer from '../components/footer'
@@ -17,7 +19,24 @@ const Posts = () => {
                 </Heading>
                 <Section delay={0.1}>
                     <SimpleGrid columns={[1, 2, 2]} gap={6}>
-                        <Image src={postIMG} alt="E-Boy" style={{borderRadius: "10px"}}/>
+
+                    <Section delay={0.2}>
+                        <NextLink href={`/posts/blog1`} passHref scroll={false}>
+                            <LinkBox cursor='pointer'>
+                                <Image 
+                                    src={postIMG}
+                                    alt="Emo-Boy"
+                                    className="grid-item-thumbnail"
+                                    placeholder="blur"
+                                    loading="lazy"
+                                />
+                                <LinkOverlay href={`posts/blog1`} target="_blank">
+                                    <Text style={{textAlign: "center"}} fontSize={20}>From E-Boy To Engineer</Text>
+                                </LinkOverlay>
+                            </LinkBox>
+                        </NextLink>
+                    </Section>
+
                     </SimpleGrid>
                 </Section>
             </Container>
