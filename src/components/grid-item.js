@@ -8,11 +8,11 @@ export const GridItem = ({ children, id, href, title, thumbnail }) => (
         <NextLink href={`/posts/${id}`} passHref scroll={false}>
             <LinkBox cursor='pointer'>
                 <Image 
-                src={thumbnail}
-                alt={title}
-                className="grid-item-thumbnail"
-                placeholder="blur"
-                loading="lazy"
+                    src={thumbnail}
+                    alt={title}
+                    className="grid-item-thumbnail"
+                    placeholder="blur"
+                    loading="lazy"
                 />
                 <LinkOverlay href={`posts/${id}`} target="_blank">
                     <Text mt={3}>{title}</Text>
@@ -20,7 +20,6 @@ export const GridItem = ({ children, id, href, title, thumbnail }) => (
                 <Text fontSize={24}>{children}</Text>
             </LinkBox>
         </NextLink>
-
     </Box>
 )
 

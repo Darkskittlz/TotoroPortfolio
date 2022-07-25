@@ -8,8 +8,6 @@ import Image from 'next/image'
 import NextLink from 'next/link'
 import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
 
-
-
 import thumbProject from '../../public/images/works/bg (1).png'
 import thumbBandingo from '../../public/images/works/bandingo.png'
 import thumbAidanPaul from '../../public/images/works/apmusic.png'
@@ -24,7 +22,6 @@ export const FooterContainer = styled.div`
     display: flex;
     align-items: flex-end;
 `
-
 
 const Works = () => {
     return (
